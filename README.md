@@ -15,7 +15,8 @@ Goss
 ```
 
 - コマンドが見つからない場合の対処
-$ sudo visudo
+
+`$ sudo visudo`
 ```
 Defaults    secure_path = /sbin:/bin:/usr/sbin:/usr/bin
 ↓
