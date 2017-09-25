@@ -1,6 +1,12 @@
 # Goss
 Goss
 
+- OS
+  - Amazon Linux
+
+### インストール
+`# curl -fsSL https://goss.rocks/install | sh`
+
 - インストール完了と実行できるかの確認
 
 `# goss --version`
@@ -16,7 +22,7 @@ Defaults    secure_path = /sbin:/bin:/usr/sbin:/usr/bin
 Defaults    secure_path = /sbin:/bin:/usr/sbin:/usr/bin:/usr/local/bin
 ```
 
-
+### テストを作成する
 `# goss autoadd nginx`
 ```
 Adding Group to './goss.yaml':
@@ -64,7 +70,7 @@ process:
     running: true
 ```
 
-### 
+### 実行する
 `# goss validate`
 ```
 ...................
