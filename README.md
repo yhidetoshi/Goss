@@ -1,6 +1,19 @@
 # Goss
 Goss
 
+- インストール完了と実行できるかの確認
+`# goss --version`
+```
+-bash: goss: コマンドが見つかりません
+```
+
+- コマンドが見つからない場合の対処
+$ sudo visudo
+```
+Defaults    secure_path = /sbin:/bin:/usr/sbin:/usr/bin
+↓
+Defaults    secure_path = /sbin:/bin:/usr/sbin:/usr/bin:/usr/local/bin
+```
 
 
 `# goss autoadd nginx`
